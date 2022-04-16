@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.loginPageLeftSection {
+    display: grid;
+    justify-content: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+header{
+    width: 100%;
+    padding-top:2.25rem;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header > a {
+    text-decoration: none;
+    color: rgb(58, 55, 55);
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.loginPageLeftSection p {
+    color: rgb(58, 55, 55);
+    margin-bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+input{
+    height: 3rem;
+   
+    padding-left: 15px;
+    background-color: lightgray;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="password"]{
+    margin-bottom: 1.25rem;
+}
+
+input[type = "submit"]{
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+
+.loginPageRightSection{
+    display: grid;
+    height: 100vh;
+    background-color: rgba(249,246,241,255);
+}
+
+.tweet {
+    width: 30%;
+    margin: auto;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.userTweet > table{
+    margin: auto;
+}
+
+
+.userTweet img{
+    margin-right: 1rem;
+    margin-top: 0;
+
+}
+.userName{
+    font-weight: bold;
+}
+
+.userTitle{     
+    font-weight: lighter;
+    color: rgb(58, 55, 55);
+}
+
+

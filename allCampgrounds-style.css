@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+
+}
+
+.container {
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(87,83,80,255);
+}
+
+header div {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.userInformation a:last-child {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 1.15rem 1rem;
+}
+
+.userInformation a:last-child::after {
+    color: whitesmoke;
+}
+
+.searchEngine {
+    background-color: rgba(249,246,241,255);
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.searchEngine h2 {
+    margin-bottom: 0;
+    max-width: 40%;
+    font-size: 2rem;
+
+}
+.searchEngine p {
+    max-width: 35%;
+    margin-top: 0.5rem;
+    color: rgb(83, 78, 74);
+
+}
+
+.inputs input:first-of-type{
+    height: 2.5rem;
+    width: 20%;
+    border:  0.5px solid darkgray;
+    border-radius: 3px;
+}
+
+.inputs input:last-of-type{
+    height: 2.5rem;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.searchEngine a:last-of-type{
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: rgba(87,83,80,255);
+    display: block;
+}
+
+.allCampgrounds{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 50px;
+    row-gap: 25px;
+}
+
+.campground{
+    padding: 15px 8px;
+    border: solid 1px lightgray;
+    border-radius: 7.5px;
+}
+
+.campground > img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.campgroundTitle{
+    font-weight: bold;
+}
+.campgroundDescription{
+    color: rgb(83, 78, 74);
+}
+ 
+.viewCampgroundButton{
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+    bottom: 0.10rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.viewCampgroundButton:after{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

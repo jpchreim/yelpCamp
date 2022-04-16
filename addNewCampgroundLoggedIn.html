@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>New Campground</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="addNewCampground-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="informationHeader">
+                <img src="./Assets/Logo.svg" alt="Yelp Camp Logo" />
+                <a href="logedOutAllCampgrounds.html">Home</a>
+            </div>
+            <div class="userInformation">
+                <p>John Doe</p>
+                <a href="login.html" class="createAnAccountButton">
+                    Logout
+                </a>
+            </div>
+        </header>
+        <form class="addCampgroundForm">
+            <h1 class="title">Add New Campground</h1>
+            <p class="label">Campground Name</p>
+            <input class="userInput" type="text" name="campgroundName" placeholder="Give your campground a title">
+            <p class="label">Price</p>
+            <input type="text" name="campgroundPrice" placeholder="Price of the stay" />
+            <p class="label">Image</p>
+            <input type="file" name="campgrundImage" value="Upload image" />
+            <p class="label">Description</p>
+            <input class= "textarea" type="text" name="campgroundDescription" placeholder="Enter your description here"/>
+            <input type="submit" value="Add Campground" name="submitCampground" />
+        </form>
+        <footer>
+            <img src="./Assets/Logo.svg" alt="YelpCamp Logo" />
+        </footer>
+    </div>
+</body>
+
+</html>
