@@ -62,6 +62,7 @@ input[type="password"]{
 input[type = "submit"]{
     background-color: black;
     color: whitesmoke;
+    width: 100%;
 
 }
 
