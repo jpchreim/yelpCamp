@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family:sans-serif;
     background-color: white;
+    
 }   
 
 
@@ -49,4 +50,99 @@ header div {
 footer{
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+
+.informationSection{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.map{
+    border-radius: 5px;
+    border: 1px grey solid;
+    padding: 15px;
+    height: 100%;
+    
+}
+
+.information{
+    
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.information img {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.campgroundInformation{
+    width: 90%;
+    margin: auto;
+}
+.campgroundMainInformation{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.campgroundMainInformation p{
+    background-color: green;
+    text-align: center;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.commentSection{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+
+.comment{
+    border-bottom: 1px grey solid;
+    margin: auto;
+    width: 90%;
+}
+
+
+.commentInformation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.commentContent{
+    margin-top: 0px;
+    
+}
+
+.username{
+    font-weight: bold;
+}
+
+
+.lastCommentSection{
+    margin: auto;
+    width: 90%;
+}
+.blackButton{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
 }
