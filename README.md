@@ -11,7 +11,9 @@ CSS
 https://jpchreim.github.io/yelpCamp/login.html
 
 ### Important to note that:
-This project isn't done yet since I need to do build a responsive design for mobile and tablets.
+This project isn't done yet. I need to do the following
+1 - Tablet View of the website
+2 - Mobile View of the website
 
 https://fonts.google.com/specimen/Archivo   
 
